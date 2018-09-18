@@ -26,6 +26,9 @@
   margin-top:15px;
   background-color: aliceblue;
 }
+.bubbleTitle{
+  height:10%
+}
 
 /*center bubbles*/ 
 .bubble {
