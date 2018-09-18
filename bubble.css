@@ -1,6 +1,6 @@
 /* Rubber Band - bouncy bubble */ 
 @import url(https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css);
-@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous);
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);
 
 .slower{ 
   animation-duration: 2s;
@@ -23,7 +23,7 @@
 }
 
 .testcontainer.head{
-  margin-top:15px;
+  margin:10px;
   background-color: aliceblue;
 }
 .bubbleTitle{
