@@ -1,76 +1,13 @@
+/* Rubber Band - bouncy bubble */ 
+@import url(https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css);
 
-
-/* Bob */
-@-webkit-keyframes hvr-bob {
-    0% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-    50% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
-    }
-    100% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-  }
-  @keyframes hvr-bob {
-    0% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-    50% {
-      -webkit-transform: translateY(-4px);
-      transform: translateY(-4px);
-    }
-    100% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-  }
-  @-webkit-keyframes hvr-bob-float {
-    100% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-  }
-  @keyframes hvr-bob-float {
-    100% {
-      -webkit-transform: translateY(-8px);
-      transform: translateY(-8px);
-    }
-  }
-  .hvr-bob {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  }
-  .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
-    -webkit-animation-name: hvr-bob-float, hvr-bob;
-    animation-name: hvr-bob-float, hvr-bob;
-    -webkit-animation-duration: .3s, 1.5s;
-    animation-duration: .3s, 1.5s;
-    -webkit-animation-delay: 0s, .3s;
-    animation-delay: 0s, .3s;
-    -webkit-animation-timing-function: ease-out, ease-in-out;
-    animation-timing-function: ease-out, ease-in-out;
-    -webkit-animation-iteration-count: 1, infinite;
-    animation-iteration-count: 1, infinite;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-direction: normal, alternate;
-    animation-direction: normal, alternate;
-  }
-
-  /*body*/
+/*body*/
 .body{ 
   margin:0px;
   padding:0px;
   background-color:#e8fefd
 }
+
 
   /*container*/
 .testcontainer {
@@ -110,57 +47,6 @@
     color: white; 
   }
 
-  html{
-    padding:0;
-    margin: 0;
-    min-height:100%;
-  }
-  body{
-    background: #111;
-    position:relative;
-    min-height:100%;
-  }
+  /*********************** QUOTE PAGE *************************/ 
 
-  .button{
-    width: 50px;
-    height: 50px;
-    top:50%;
-    position: fixed;
-    left: 50%;
-    margin-top: -45px;
-    margin-left: -50px;
-    border-radius: 5px;
-    background: none;
-    cursor: pointer;
-    transition: background 0.5s ease;
-  }
-  .button:hover{
-  
-  }
-  .active#heart:before,.active#heart:after{
-    background: red !important;
-  }
-  #heart {
-      width: 100px;
-      height: 90px;
-      transition: background 0.5s ease;
-  }
-  #heart:before,
-  #heart:after {
-    transition: background 0.5s ease;
-      position: absolute;
-      content: "";
-      left: 50px;
-      top: 0;
-      width: 50px;
-      height: 80px;
-      background: dimgrey;
-      border-radius: 50px 50px 0 0;
-      transform: rotate(-45deg);
-      transform-origin: 0 100%;
-  }
-  #heart:after {
-      left: 0;
-      transform: rotate(45deg);
-      transform-origin :100% 100%;
-  }
+
