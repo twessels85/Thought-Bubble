@@ -111,3 +111,22 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #30bced;}
+
+
+
+/*Expand Bubble*/
+.bubbleOn{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width:100%;
+  top: 160;
+  opacity: 1;
+}
+
+.bubbleOff{
+  opacity:0;
+  position:fixed; 
+  top: 45%;
+  left:45%;
+}
