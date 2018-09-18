@@ -1,3 +1,5 @@
+
+
 /* Bob */
 @-webkit-keyframes hvr-bob {
     0% {
@@ -61,4 +63,9 @@
     animation-fill-mode: forwards;
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
+  }
+
+  .foot{
+
+    background-color: #b7b6c2;
   }
