@@ -32,6 +32,12 @@
   margin:10px;
   background-color: aliceblue;
 }
+
+.logo{
+  max-height: 90px;
+
+}
+
 .bubbleTitle{
   height:10%
 }
@@ -51,13 +57,13 @@
   margin: 30px;
 }
 
-.bubble.big{
+.bubble.big {
   width:15%;
   margin:10px;
 }
 
   /*footer*/
-  .foot{
+.foot {
     background-color: #b7b6c2;
     text-align: center;
     margin:0px;
@@ -65,13 +71,14 @@
     bottom: 0;
     width: 100%;
     padding: 1rem;
-  }
+    flex-shrink: 0;
+}
 
-  p{
+p {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     color: white; 
-  }
+}
 
 
 /* Dropdown Button */
@@ -134,6 +141,7 @@
   display: none;
 }
 
+/* Profile page */ 
 .prof{
   border-radius:50%;
   height:40%;
@@ -152,7 +160,10 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color:#b7b6c2;
+  font-size: 36px;
+  font-weight: 100; /* Work on this?*/ 
 }
+
 
 .profText.dark{
   color: #ADACB8;
@@ -164,6 +175,7 @@
   padding-left:10px;
 }
 
+/* Login Page */
 .testBody{
   margin:0px;
   padding:0px;
