@@ -72,7 +72,6 @@ p {
 
 .logo{
   max-height: 90px;
-
 }
 
 .bubbleTitle{
@@ -202,8 +201,9 @@ p {
   background-color:aliceblue;
 }
 
-.testcontainer.head.login{
+.login{
   margin-top:150px;
+  max-height: 150px;
   
 }
 
@@ -239,6 +239,7 @@ p {
 
 /* Modal Content */
 .modal-content {
+  max-width: 450px;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
