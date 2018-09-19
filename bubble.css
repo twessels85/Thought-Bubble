@@ -163,3 +163,29 @@
   margin-left:10px;
   padding-left:10px;
 }
+
+.testBody{
+  margin:0px;
+  padding:0px;
+  background-color:aliceblue;
+}
+
+.testcontainer.head.login{
+  margin-top:150px;
+  
+}
+
+.loginItem{
+  margin:25px;
+}
+
+.subButton{
+  background-color: #b7b6c2;
+  color:white;
+  width:100px;
+  border: none;
+  padding:5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
