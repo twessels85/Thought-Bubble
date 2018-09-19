@@ -1,5 +1,7 @@
 var d =  document.getElementById("bubbles");
 var e = document.getElementById("expandBubble");
+var quote = document.getElementById("quote");
+var count = 0; 
 
 d.addEventListener("click", function(clicked){
     curr = clicked.target;
