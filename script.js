@@ -15,7 +15,6 @@ e.addEventListener("click", function(){
     e.classList.toggle("bubbleOff");
     e.classList.toggle("bubbleOn");
 });
-<<<<<<< HEAD
 
 
 // Get the modal
@@ -43,5 +42,3 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-=======
->>>>>>> 462a67f4fc0775c1291a249102518c4807fdb7a6
