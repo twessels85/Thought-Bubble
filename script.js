@@ -4,6 +4,7 @@ var e = document.getElementById("expandBubble");
 d.addEventListener("click", function(){
     e.classList.toggle("bubbleOn");
     e.classList.toggle("bubbleOff");
+    d.classList.toggle("bubbleOff");
 });
 
 e.addEventListener("click", function(){
