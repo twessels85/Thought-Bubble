@@ -5,8 +5,9 @@
 .slower{ 
   animation-duration: 2s;
 }
+
 /*body*/
-.body{ 
+body{ 
   margin:0px;
   padding:0px;
   background-color:#ffffff
@@ -17,6 +18,35 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.centered.quote {
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  display:inline-block;
+  max-width: 535px;
+  max-height: 160px;
+  font-size: large;
+}
+
+/*footer*/
+footer {
+  background-color: #b7b6c2;
+  text-align: center;
+  margin:0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: white; 
 }
 
 
@@ -62,23 +92,6 @@
   margin:10px;
 }
 
-  /*footer*/
-.foot {
-    background-color: #b7b6c2;
-    text-align: center;
-    margin:0px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    flex-shrink: 0;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    color: white; 
-}
 
 
 /* Dropdown Button */
