@@ -89,7 +89,7 @@ p {
   margin-top: 20px;
   width: 150px;
   opacity: .45;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   min-width: 95;
 
 }
@@ -270,3 +270,4 @@ p {
 .modalItem{
   margin:10px;
 }
+
