@@ -17,23 +17,34 @@ import {
 
 ReactDOM.render(
     <HashRouter>
-        <div className="Menu">
-          <div className="dropdown">
-              <button className="dropbtn">Menu</button>
-              <div className="dropdown-content">
-                  <NavLink to="/"> Home </NavLink>
-                  <NavLink to="/NewThought"> New Thought</NavLink>
-                  <NavLink to="/Profile"> Profile</NavLink>
-                  <NavLink to="/Login"> Sign out</NavLink>
-              </div>
-              <div>
-                <Route exact path="/" component={Main} />
-                <Route path="/NewThought" component={NewThought}/> 
-                <Route path="/Profile" component={Profile}/>
-                <Route path="/Login" component={Login}/>
-              </div>
-                
-          </div>
+        <div>
+            <div className="testcontainer head">
+            <img className="logo" src={logo} alt=""/>
+            </div>
+            
+
+            <div className="Menu">
+            <div className="dropdown">
+                <button className="dropbtn">Menu</button>
+                <div className="dropdown-content">
+                    <NavLink to="/"> Home </NavLink>
+                    <NavLink to="/NewThought"> New Thought</NavLink>
+                    <NavLink to="/Profile"> Profile</NavLink>
+                    <NavLink to="/Login"> Sign out</NavLink>
+                </div>
+                <div>
+                    <Route exact path="/" component={Main} />
+                    <Route path="/NewThought" component={NewThought}/> 
+                    <Route path="/Profile" component={Profile}/>
+                    <Route path="/Login" component={Login}/>
+                </div>
+            </div>
+            </div>
+
+            <footer className="foot">
+                <p> Developed by Jewell Finder and Tyler Wessels </p>
+            </footer>
+
         </div>
         </HashRouter>
         , document.getElementById('root'));
