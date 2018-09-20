@@ -6,7 +6,7 @@ import './App.css';
 class BubblePic extends Component {
     render() {
         return (
-            <img src={bubble} className={this.props.def}></img>  //Add quote, class for size, etc
+            <img src={bubble} className={this.props.def} onClick={this.OnBubbleClick}></img>  //Add quote, class for size, etc
             
         )
     }
@@ -15,7 +15,7 @@ class BubblePic extends Component {
 class HeartPic extends Component { 
     render() { 
         return (
-            <img src={heart} className={this.props.def}></img>  //Add quote, class for size, etc
+            <img src={heart} className={this.props.def} onClick={this.OnBubbleClick}></img>  //Add quote, class for size, etc
 
         )
     }
@@ -104,7 +104,7 @@ class QuoteBubble extends Component {
 
     render() {
         return (
-        <div id="expandBubble" className="bubbleOn animated pulse slow">
+        <div id="expandBubble" className="bubbleOn animated pulse slow" onClick={this.OnQuoteClick}>
            <img src={bubble} />
                 {this.renderQuote()} 
         </div>
@@ -135,11 +135,22 @@ class Main extends Component{
         return (
             <div> 
                 <Menu />
+
                 <BubbleBoard /> 
                 <QuoteBubble />
             </div>
         );
     }
 }
+
+// private onBubbleClick = () => {
+//     return (
+//         {this.setState(showBoard:false)}
+//     ); 
+// }
+
+// private onQuoteClick = () =>{ 
+//     return ();
+// }
 
 export default Main; 
