@@ -3,6 +3,16 @@ import bubble from './images/bubble.png';
 import heart from './images/heartNew.png';
 import './App.css';
 
+import {
+    Route,
+    NavLink,
+    HashRouter
+  } from "react-router-dom";
+  import logo from './images/logo.png';
+  import Profile from './Profile.js';
+  import Login from './Login.js';
+  import NewThought from './NewThought';
+
 class BubblePic extends Component {
     render() {
         return (
@@ -148,30 +158,14 @@ class QuoteBubble extends Component {
     }
 }
 
-class Menu extends Component {
-    render() {
-      return (
-        <div className="Menu">
-          <div className="dropdown">
-              <button className="dropbtn">Menu</button>
-              <div className="dropdown-content">
-                  <a href="tb-main.html"> New Thought</a>
-                  <a href="tb-main.html"> Profile</a>
-                  <a href="tb-login.html"> Sign out</a>
-              </div>
-          </div>
-        </div>
-    
-      );
-    }
-  }
 
+
+  
 class View extends React.Component {
     constructor(props) {
       super(props);
       this.state = {isToggleOn: true};
   
-      // This binding is necessary to make `this` work in the callback
       this.handleClick = this.handleClick.bind(this);
     }
   
@@ -194,8 +188,7 @@ class Main extends Component{
     render(){ 
         return (
             <div> 
-                <Menu />
-
+                
                 <View />
             </div>
         );

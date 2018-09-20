@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './images/logo.png';
 import './App.css';
 
 class User extends Component {
@@ -21,30 +20,13 @@ class User extends Component {
   }
 }
 
-class Menu extends Component {
-  render() {
-    return (
-      <div className="Menu">
-        <div className="dropdown">
-            <button className="dropbtn">Menu</button>
-            <div className="dropdown-content">
-                <a href="tb-main.html"> Home</a>
-                <a href="tb-login.html"> Sign out</a>
-            </div>
-        </div>
-      </div>
-  
-    );
-  }
-}
 
 
 class Profile extends Component {
   render() {
     return (
         <div> 
-            <Menu /> 
-
+      
             <User />
 
         </div>

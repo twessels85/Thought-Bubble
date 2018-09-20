@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
 import logo from './images/logo.png';
+
 import './App.css';
 import Profile from './Profile.js';
 import Main from './Main.js';
 import Login from './Login.js';
+import NewThought from './NewThought';
+
 
 class App extends Component {
   render() {
