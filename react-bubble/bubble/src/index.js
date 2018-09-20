@@ -33,8 +33,7 @@ ReactDOM.render(
                         </div>
                     </div>
                 </div>
-
-                <img className="logo " src={logo} alt=""/>
+                <img className="logo" src={logo} alt=""/>
             </div>
                 <div>
                     <Route exact path="/" component={Main} />

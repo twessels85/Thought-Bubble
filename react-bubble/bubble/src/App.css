@@ -1,37 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 /* Rubber Band - bouncy bubble */ 
 @import url(https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css);
 @import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);
 
-/* animation */ 
+/* animation speed */ 
 .slow{ 
   animation-duration: 2s; 
 }
@@ -43,24 +14,6 @@
 }
 
 /*body*/
-body{ 
-  margin:0px;
-  padding:0px;
-  background-color:#ffffff
-}
-
-.Menu { 
-  text-align:left;
-  padding-top: 15px;
-}
-
-.menuIcon {
-  width: 25px;
-  height: 2px;
-  background-color: rgb(255, 255, 255);
-  margin: 3px 0;
-}
-
 .centered {
   position: absolute;
   top: 50%;
@@ -86,7 +39,7 @@ body{
   color: rgb(99, 99, 99);
 }
 
-/*footer*/
+/* index styling */
 footer {
   background-color: #b7b6c2;
   text-align: center;
@@ -104,6 +57,18 @@ p {
   color: white; 
 }
 
+.Menu { 
+  padding-top: 15px;
+  float:left;
+}
+
+.menuIcon {
+  width: 25px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  margin: 3px 0;
+}
+
 /*container*/
 .testcontainer {
   width: 100%;
@@ -112,24 +77,15 @@ p {
   margin-left: auto;
 }
 
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .head{
-  margin:10px;
+  margin-top:10px;
   background-color: aliceblue;
   text-align: center; 
 }
 
 .logo{
   max-height: 90px;
-}
-
-.bubbleTitle{
-  height:10%
+  margin-top:10px;
 }
 
 /*center bubbles*/ 
@@ -154,8 +110,6 @@ p {
   width:200px;
   margin:10px;
 }
-
-
 
 /* Dropdown Button */
 .dropbtn {
@@ -211,10 +165,6 @@ p {
   opacity: .75;
 }
 
-.bubbleOff{
-  display: none;
-}
-
 /* Profile page */ 
 .prof{
   border-radius:50%;
@@ -225,7 +175,7 @@ p {
 }
 
 .profContainer{
-  margin-top:-30px;
+  margin-top:20px;
   display:flex;
 }
 
@@ -237,12 +187,6 @@ p {
   font-size: 36px;
   font-weight: 100; /* Work on this?*/ 
 }
-
-
-.profText.dark{
-  color: #ADACB8;
-}
-
 .verticalLine{
   border-left: thick solid #b7b6c2;
   margin-left:10px;
@@ -250,12 +194,6 @@ p {
 }
 
 /* Login Page */
-.testBody{
-  margin:0px;
-  padding:0px;
-  background-color:aliceblue;
-}
-
 .login{
   margin-top:150px;
   max-height: 150px;
@@ -277,50 +215,11 @@ p {
   font-weight: bold;
 }
 
-/* modal stuff*/
-.modal{
-  position: fixed;
-  z-index:1;
-  padding-top: 100px; 
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-  max-width: 450px;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
+/* New Thought */
 .modalTop{
   margin-top:6%;
 }
 
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+.modalItem {
+  margin: 10px;
 }
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modalItem{
-  margin:10px;
-}
-
