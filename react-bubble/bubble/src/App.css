@@ -279,7 +279,6 @@ p {
 
 /* modal stuff*/
 .modal{
-  display:none;
   position: fixed;
   z-index:1;
   padding-top: 100px; 
@@ -300,7 +299,10 @@ p {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  
+}
+
+.modalTop{
+  margin-top:6%;
 }
 
 /* The Close Button */
