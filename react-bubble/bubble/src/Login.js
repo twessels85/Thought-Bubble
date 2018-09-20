@@ -6,7 +6,11 @@ import Main from './Main.js';
 class Form extends Component {
     render() {
         return( 
-            <form> </form>
+            <form action="tb-main.html" target="_self" className="testcontainer">
+                <div className="loginItem"><input type="text" name="username" placeholder="Username"/></div>
+                <div className="loginItem"><input type="password" name="password" placeholder="Password"/></div>
+                <div className="loginItem"><input className="subButton" type="submit" value="Log In"/></div>
+            </form>
         );
     }
 }

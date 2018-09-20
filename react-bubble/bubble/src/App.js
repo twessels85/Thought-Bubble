@@ -3,6 +3,7 @@ import logo from './images/logo.png';
 import './App.css';
 import Profile from './Profile.js';
 import Main from './Main.js';
+import Login from './Login.js';
 
 class App extends Component {
   render() {
