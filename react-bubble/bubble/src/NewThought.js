@@ -11,6 +11,7 @@ class NewThought extends Component {
                     <div className="submitItem modalItem"><input className="subButton" type="submit" value="Submit"/></div>
                 </form>
             </div>
+<<<<<<< HEAD
             /*<div id="myModal" className="modal">
                 <div className="modal-content">
                     <span className="close">&times;</span>
@@ -23,6 +24,8 @@ class NewThought extends Component {
                     </div>
                 </div>
             </div>*/
+=======
+>>>>>>> eae1811b59d0125d1e3e1ede0ad8a9ba6a0bd390
         );
     }
 }
