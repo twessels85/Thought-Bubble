@@ -70,6 +70,11 @@ body{
   max-width: 535px;
   max-height: 160px;
   font-size: 20px;
+  display:inline-block;
+}
+
+.quoted{
+  padding-left:40px;
 }
 
 /*footer*/
@@ -200,7 +205,7 @@ p {
 /* Profile page */ 
 .prof{
   border-radius:50%;
-  height:40%;
+  height:301px;
   margin-left: auto;
   margin-right: auto;
   border:solid grey 1px;
