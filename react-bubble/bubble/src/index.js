@@ -14,6 +14,8 @@ import {
   import NewThought from './NewThought';
   import Main from './Main';
 
+  import App from './Main1.tsx';
+
 ReactDOM.render(
     <HashRouter>
         <div>
