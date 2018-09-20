@@ -51,7 +51,6 @@ class BubbleBoard extends Component {
     render() {
         return (
             <div> 
-
                 {this.renderBubble()}
                 {this.renderBubble()}
                 {this.renderBubble()}
@@ -144,10 +143,7 @@ class QuoteBubble extends Component {
         );
     }
 }
-
-
-
-  
+ 
 class View extends React.Component {
     constructor(props) {
       super(props);
@@ -180,15 +176,5 @@ class Main extends Component{
         );
     }
 }
-
-// private onBubbleClick = () => {
-//     return (
-//         {this.setState(showBoard:false)}
-//     ); 
-// }
-
-// private onQuoteClick = () =>{ 
-//     return ();
-// }
 
 export default Main; 
