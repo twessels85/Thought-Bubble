@@ -20,7 +20,11 @@ ReactDOM.render(
             <div className="container head">
                 <div className="Menu">
                     <div className="dropdown">
-                        <button className="dropbtn">Menu</button>
+                        <button className="dropbtn">
+                            <div className="menuIcon"></div>
+                            <div className="menuIcon"></div>
+                            <div className="menuIcon"></div>
+                        </button>
                         <div className="dropdown-content">
                             <NavLink to="/"> Home </NavLink>
                             <NavLink to="/NewThought"> New Thought</NavLink>

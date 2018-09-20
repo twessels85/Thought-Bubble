@@ -51,7 +51,14 @@ body{
 
 .Menu { 
   text-align:left;
-  padding-top: 20px;
+  padding-top: 15px;
+}
+
+.menuIcon {
+  width: 25px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  margin: 3px 0;
 }
 
 .centered {
@@ -97,7 +104,6 @@ p {
   color: white; 
 }
 
-
 /*container*/
 .testcontainer {
   width: 100%;
@@ -115,6 +121,7 @@ p {
 .head{
   margin:10px;
   background-color: aliceblue;
+  text-align: center; 
 }
 
 .logo{
@@ -193,8 +200,6 @@ p {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #30bced;}
-
-
 
 /*Expand Bubble*/
 .bubbleOn{
