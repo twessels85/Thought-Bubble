@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 import {
@@ -19,27 +18,29 @@ ReactDOM.render(
     <HashRouter>
         <div>
             <div className="testcontainer head">
+            <div className="Menu">
+                <div className="dropdown">
+                    <button className="dropbtn">Menu</button>
+                    <div className="dropdown-content">
+                        <NavLink to="/"> Home </NavLink>
+                        <NavLink to="/NewThought"> New Thought</NavLink>
+                        <NavLink to="/Profile"> Profile</NavLink>
+                        <NavLink to="/Login"> Sign out</NavLink>
+                    </div>
+                </div>
+            </div>
             <img className="logo" src={logo} alt=""/>
             </div>
+
             
 
-            <div className="Menu">
-            <div className="dropdown">
-                <button className="dropbtn">Menu</button>
-                <div className="dropdown-content">
-                    <NavLink to="/"> Home </NavLink>
-                    <NavLink to="/NewThought"> New Thought</NavLink>
-                    <NavLink to="/Profile"> Profile</NavLink>
-                    <NavLink to="/Login"> Sign out</NavLink>
-                </div>
                 <div>
                     <Route exact path="/" component={Main} />
                     <Route path="/NewThought" component={NewThought}/> 
                     <Route path="/Profile" component={Profile}/>
                     <Route path="/Login" component={Login}/>
                 </div>
-            </div>
-            </div>
+            
 
             <footer className="foot">
                 <p> Developed by Jewell Finder and Tyler Wessels </p>

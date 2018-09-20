@@ -2,21 +2,10 @@ import React, { Component } from 'react';
 import bubble from './images/bubble.png';
 import heart from './images/heartNew.png';
 import './App.css';
-
-import {
-    Route,
-    NavLink,
-    HashRouter
-  } from "react-router-dom";
-  import logo from './images/logo.png';
-  import Profile from './Profile.js';
-  import Login from './Login.js';
-  import NewThought from './NewThought';
-
 class BubblePic extends Component {
     render() {
         return (
-            <img src={bubble} className={this.props.def} onClick={this.OnBubbleClick}></img>  //Add quote, class for size, etc
+            <img src={bubble} className={this.props.def} onClick={this.OnBubbleClick}></img>  
             
         )
     }
@@ -25,8 +14,7 @@ class BubblePic extends Component {
 class HeartPic extends Component { 
     render() { 
         return (
-            <img src={heart} className={this.props.def} onClick={this.OnBubbleClick}></img>  //Add quote, class for size, etc
-
+            <img src={heart} className={this.props.def} onClick={this.OnBubbleClick}></img> 
         )
     }
 }
@@ -147,7 +135,6 @@ class QuoteBubble extends Component {
                 );
         }
     }
-
     render() {
         return (
         <div id="expandBubble" className="bubbleOn animated pulse slow" onClick={this.OnQuoteClick}>
@@ -188,7 +175,6 @@ class Main extends Component{
     render(){ 
         return (
             <div> 
-                
                 <View />
             </div>
         );
