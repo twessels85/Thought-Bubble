@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import bubble from './images/bubble.png';
-import heart from './images/heartNew.png';
 import './App.css';
 class BubblePic extends Component {
     render() {
         return (
-            <img src={bubble} className={this.props.def} onClick={this.OnBubbleClick}></img>  
+            <img src="/images/bubble.png" className={this.props.def} onClick={this.OnBubbleClick}></img>  
             
         )
     }
@@ -14,7 +12,7 @@ class BubblePic extends Component {
 class HeartPic extends Component { 
     render() { 
         return (
-            <img src={heart} className={this.props.def} onClick={this.OnBubbleClick}></img> 
+            <img src={"/images/heartNew.png"} className={this.props.def} onClick={this.OnBubbleClick}></img> 
         )
     }
 }
@@ -137,7 +135,7 @@ class QuoteBubble extends Component {
     render() {
         return (
         <div id="expandBubble" className="bubbleOn animated pulse slow" onClick={this.OnQuoteClick}>
-           <img src={bubble} />
+           <img src={"/images/bubble.png"} />
                 {this.renderQuote()} 
         </div>
         );
