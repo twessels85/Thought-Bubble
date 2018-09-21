@@ -9,9 +9,9 @@ class User extends Component {
             <img className="prof" alt="Profile Pic" src={"https://www.eharmony.com/dating-advice/wp-content/uploads/2017/07/selfcenteredman.png"}/>
         </div>
        <div className="profText dark">
-            <p></p> Tyler Wessels
-            <p></p> Chicago
-            <p></p> Score: 20<span className="verticalLine">Likes: 5</span>
+            Tyler Wessels
+            <br/> Chicago
+            <br/><span className="scoreText"> Score: 20<span className="verticalLine">Likes: 5</span></span>
         </div>
       </div>
     );

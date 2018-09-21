@@ -84,7 +84,12 @@ p {
 
 .logo{
   max-height: 90px;
+<<<<<<< HEAD
   margin-top:10px; 
+=======
+  margin-top:10px;
+  margin-left:-50px;
+>>>>>>> e3b0e7ed2c9e76868bb1c302af1f55e018cfabed
 }
 
 /*center bubbles*/ 
@@ -179,7 +184,7 @@ p {
 }
 
 .profText{
-  margin-top:20px;
+  margin-top:10px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color:#b7b6c2;
@@ -192,11 +197,19 @@ p {
   padding-left:10px;
 }
 
+.scoreText{
+  font-size:24px;
+  margin-top:0px;
+}
+
 /* Login Page */
 .login{
   margin-top:150px;
-  max-height: 150px;
-  
+  max-height: 150px; 
+}
+
+.loginCont{
+  margin-top:8%;
 }
 
 .loginItem{
@@ -204,7 +217,7 @@ p {
 }
 
 .subButton{
-  background-color: #b7b6c2;
+  background-color: #30bced;
   color:white;
   width:100px;
   border: none;
@@ -212,6 +225,7 @@ p {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
+  border-radius: 10%;
 }
 
 /* New Thought */
@@ -221,4 +235,6 @@ p {
 
 .modalItem {
   margin: 10px;
+  border-radius: 5%;
+  color:#858588;
 }
