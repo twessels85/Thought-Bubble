@@ -9,12 +9,10 @@ import {
     HashRouter
   } from "react-router-dom";
   import logo from './images/logo.png';
-  import Profile from './Profile.js';
-  import Login from './Login.js';
+  import Profile from './Profile';
+  import Login from './Login';
   import NewThought from './NewThought';
   import Main from './Main';
-
-  import App from './Main1.tsx';
 
 ReactDOM.render(
     <HashRouter>
@@ -50,5 +48,6 @@ ReactDOM.render(
 
         </div>
         </HashRouter>
+
         , document.getElementById('root'));
 registerServiceWorker();
