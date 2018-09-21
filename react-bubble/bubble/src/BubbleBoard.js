@@ -49,7 +49,12 @@ class BubbleBoard extends Component {
 
     render() {
         return (
-            <div> 
+            <div className="testcontainer"> 
+                {this.renderBubble()}
+                {this.renderBubble()}
+                {this.renderBubble()}
+                {this.renderBubble()}
+                {this.renderBubble()}
                 {this.renderBubble()}
                 {this.renderBubble()}
                 {this.renderBubble()}
