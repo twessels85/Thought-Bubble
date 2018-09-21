@@ -8,7 +8,6 @@ import {
     NavLink,
     HashRouter
   } from "react-router-dom";
-  import logo from './images/logo.png';
   import Profile from './Profile';
   import Login from './Login';
   import NewThought from './NewThought';
@@ -33,7 +32,11 @@ ReactDOM.render(
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <img className="logo" src='/images/logo.png' alt=""/>
+=======
+                <img className="logo" src="/images/logo.png" alt=""/>
+>>>>>>> 56de56d73f357424ac7677f9146e98c9a9cedd99
             </div>
                 <div>
                     <Route exact path="/" component={Main} />
